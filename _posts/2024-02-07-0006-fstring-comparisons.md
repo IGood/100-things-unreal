@@ -4,10 +4,7 @@ title:  "#6 -- `FString` comparisons"
 date:   2024-02-07 00:10:00 -0800
 tags: fstring string-things
 ---
-<small>[← {{ page.previous.title }}]({{ page.previous.url }}) | [{{ page.next.title }} →]({{ page.next.url }})</small>\
-{{ page.title }}\
-<sup>{{ page.date | date: site.date_format }}</sup>
-
+{% include post_header.md %}
 Know how `FString` comparisons use case-sensitivity.\
 This is important because case-insensitive comparisons are more expensive.
 

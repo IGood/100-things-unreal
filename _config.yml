@@ -23,7 +23,7 @@ title: 1,000 Things You Should Know About Programming In Unreal
 description: >- # this means to ignore newlines until "baseurl:"
   Tips and recommendations for writing correct & performant code in the Unreal Engine.
   <br>
-  <small style="text-align:right;">| <a href="/index/">home</a> | <a href="/about/">about</a> |</small>
+  <small>| <a href="/index/">home</a> | <a href="/about/">about</a> |</small>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IanGoodies

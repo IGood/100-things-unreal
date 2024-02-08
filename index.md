@@ -6,12 +6,6 @@
 ---
 Below is a list of all posts created so far for the [{{ site.title }}]({{ site.url }}) blog.
 
-zxcv
-
-{{ site.post_header_stuff }}
-
-ffff
-
 Total number of posts = {{ site.posts.size }}
 
 {% for post in site.posts %}
