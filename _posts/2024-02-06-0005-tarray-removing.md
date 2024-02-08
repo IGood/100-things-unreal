@@ -1,10 +1,11 @@
 ---
 #layout: post
-title:  "5 -- `TArray` removing"
+title:  "#5 -- `TArray` removing"
 date:   2024-02-06 22:33:33 -0800
-categories: tarray containers
+tags: tarray containers
 ---
-#{{ page.title }}\
+<small>[← {{ page.previous.title }}]({{ page.previous.url }}) | [{{ page.next.title }} →]({{ page.next.url }})</small>\
+{{ page.title }}\
 <sup>{{ page.date | date: site.date_format }}</sup>
 
 Know your options for removing elements from a `TArray`.

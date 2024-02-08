@@ -6,20 +6,26 @@
 ---
 Below is a list of all posts created so far for the [{{ site.title }}]({{ site.url }}) blog.
 
+zxcv
+
+{{ site.post_header_stuff }}
+
+ffff
+
 Total number of posts = {{ site.posts.size }}
 
 {% for post in site.posts %}
-- [#{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
 
 ---
 
-#### Categories ({{ site.categories.size }})
+#### Tags ({{ site.tags.size }})
 
-{% assign categories = site.categories | sort %}
-{% for category in categories %}
-<u>{{ category[0] }}</u>
-{% for post in category[1] %}
-- [#{{ post.title }}]({{ post.url }})
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+<u>{{ tag[0] }}</u>
+{% for post in tag[1] %}
+- [{{ post.title }}]({{ post.url }})
 {% endfor %}
 {% endfor %}

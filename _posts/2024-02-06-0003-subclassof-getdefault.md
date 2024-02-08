@@ -1,10 +1,11 @@
 ---
 #layout: post
-title:  "3 -- `TSubclassOf::GetDefault`"
+title:  "#3 -- `TSubclassOf::GetDefault`"
 date:   2024-02-06 22:22:22 -0800
-categories: tsubclassof classes pointers cdo
+tags: tsubclassof classes pointers cdo
 ---
-#{{ page.title }}\
+<small>[← {{ page.previous.title }}]({{ page.previous.url }}) | [{{ page.next.title }} →]({{ page.next.url }})</small>\
+{{ page.title }}\
 <sup>{{ page.date | date: site.date_format }}</sup>
 
 When using `TSubclassOf`, use `TSubclassOf::GetDefault` directly instead of a null-check + `TSubclassOf::op->` + `UClass::GetDefault`.
