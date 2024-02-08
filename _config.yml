@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Tips and recommendations for writing correct & performant code in the Unreal Engine.
   <br>
   <small>| <a href="/index/">home</a> | <a href="/about/">about</a> |</small>
-baseurl: "/1000-things-unreal" # the subpath of your site, e.g. /blog
-url: "https://igood.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://igood.github.io/1000-things-unreal" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IanGoodies
 github_username:  IGood
 linkedin_username: IanMGood
