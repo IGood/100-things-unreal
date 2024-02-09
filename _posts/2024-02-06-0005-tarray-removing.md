@@ -7,8 +7,6 @@ tags: tarray containers
 {% include post_header.html %}
 Know your options for removing elements from a `TArray`.
 
-{{relative_url }}
-
 But first...\
 Know that all methods for removing elements have a `bAllowShrinking` parameter that defaults to `true`.\
 This means that any time elements are removed, a reallocation *might* occur, which means elements need to be copied to a new location in memory, invalidating any pointers or references to those elements.\

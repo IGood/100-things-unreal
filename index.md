@@ -4,7 +4,6 @@
 
 #layout: home
 ---
-
 Below is a list of all posts created so far for the [{{ site.title }}]({{ site.url }}) blog.
 
 Total number of posts = {{ site.posts.size }}
