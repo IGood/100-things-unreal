@@ -4,7 +4,7 @@ title:  "#3 -- `TSubclassOf::GetDefault`"
 date:   2024-02-06 22:22:22 -0800
 tags: tsubclassof classes pointers cdo
 ---
-{% include post_header.md %}
+{% include post_header.html %}
 When using `TSubclassOf`, use `TSubclassOf::GetDefault` instead of a null-check + `TSubclassOf::op->` + `UClass::GetDefault`.
 
 ```cpp

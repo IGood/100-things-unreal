@@ -2,7 +2,7 @@
 #layout: post
 title:  "#6 -- `FString` comparisons"
 date:   2024-02-07 00:10:00 -0800
-tags: fstring string-things
+tags: [fstring, string things]
 ---
 {% include post_header.md %}
 Know how `FString` comparisons use case-sensitivity.\

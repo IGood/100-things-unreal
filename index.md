@@ -4,6 +4,7 @@
 
 #layout: home
 ---
+
 Below is a list of all posts created so far for the [{{ site.title }}]({{ site.url }}) blog.
 
 Total number of posts = {{ site.posts.size }}
@@ -20,6 +21,6 @@ Total number of posts = {{ site.posts.size }}
 {% for tag in tags %}
 <u>{{ tag[0] }}</u>
 {% for post in tag[1] %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
 {% endfor %}
 {% endfor %}

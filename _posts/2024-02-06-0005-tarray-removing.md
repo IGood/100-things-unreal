@@ -4,8 +4,10 @@ title:  "#5 -- `TArray` removing"
 date:   2024-02-06 22:33:33 -0800
 tags: tarray containers
 ---
-{% include post_header.md %}
+{% include post_header.html %}
 Know your options for removing elements from a `TArray`.
+
+{{relative_url }}
 
 But first...\
 Know that all methods for removing elements have a `bAllowShrinking` parameter that defaults to `true`.\
