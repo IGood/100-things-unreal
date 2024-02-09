@@ -22,8 +22,7 @@ title: 1,000 Things You Should Know About Programming In Unreal
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tips and recommendations for writing correct & performant code in the Unreal Engine.
-  <br>
-  <small>| <a href="/1000-things-unreal/">home</a> | <a href="/1000-things-unreal/about">about</a> |</small>
+  <div align="right"><small>| <a href="/1000-things-unreal/">home</a> | <a href="/1000-things-unreal/about">about</a> |</small></div>
 baseurl: "/1000-things-unreal" # the subpath of your site, e.g. /blog
 url: "https://igood.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IanGoodies
@@ -33,7 +32,20 @@ mastodon_username: igood
 
 # Build settings
 # theme: minima
-remote_theme: pages-themes/time-machine@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
+# okay ...
+#    - pages-themes/slate@v0.2.0
+# meh ...
+#   - pages-themes/time-machine@v0.2.0
+#   - jekyll/minima
+#   - pages-themes/merlot@v0.2.0
+#   - pages-themes/cayman@v0.2.0
+# not okay...
+#   - pages-themes/tactile@v0.2.0
+#   - pages-themes/midnight@v0.2.0
+#   - pages-themes/leap-day@v0.2.0
+#   - pages-themes/hacker@v0.2.0
+#   - pages-themes/dinky@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

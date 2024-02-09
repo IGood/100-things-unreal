@@ -1,6 +1,6 @@
 ---
 #layout: post
-title:  "#5 -- `TArray` removing"
+title:  "#5 - `TArray` removing"
 date:   2024-02-06 22:33:33 -0800
 tags: tarray containers
 ---
