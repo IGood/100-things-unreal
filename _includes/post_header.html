@@ -1,0 +1,6 @@
+<div style="display: grid; grid-template-columns: 1fr auto;">
+    <small>{% if page.previous %}<a href="{{ page.previous.url | prepend: site.baseurl }}">← {{ page.previous.title }}</a>{% endif %}</small>
+    <small>{% if page.next %}<a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title }} →</a>{% endif %}</small>
+</div>
+<b>{{ page.title }}</b><br>
+<sup>📅 {{ page.date | date_to_string: "ordinal", "US" }}</sup>
