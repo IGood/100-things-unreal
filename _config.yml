@@ -22,7 +22,7 @@ title: 1,000 Things You Should Know About Programming In Unreal
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tips and recommendations for writing correct & performant code in the Unreal Engine.
-  <br>asdf
+  <br>
   <small>| <a href="/1000-things-unreal/">home</a> | <a href="/1000-things-unreal/about">about</a> |</small>
 baseurl: "/1000-things-unreal" # the subpath of your site, e.g. /blog
 url: "https://igood.github.io" # the base hostname & protocol for your site, e.g. http://example.com

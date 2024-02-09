@@ -10,7 +10,7 @@ Below is a list of all posts created so far for the [{{ site.title }}]({{ site.u
 Total number of posts = {{ site.posts.size }}
 
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
 {% endfor %}
 
 ---

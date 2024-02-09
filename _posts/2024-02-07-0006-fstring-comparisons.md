@@ -4,7 +4,7 @@ title:  "#6 -- `FString` comparisons"
 date:   2024-02-07 00:10:00 -0800
 tags: [fstring, string things]
 ---
-{% include post_header.md %}
+{% include post_header.html %}
 Know how `FString` comparisons use case-sensitivity.\
 This is important because case-insensitive comparisons are more expensive.
 
