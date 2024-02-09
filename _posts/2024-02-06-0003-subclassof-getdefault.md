@@ -1,6 +1,6 @@
 ---
 #layout: post
-title:  "#3 -- `TSubclassOf::GetDefault`"
+title:  "#3 - `TSubclassOf::GetDefault`"
 date:   2024-02-06 22:22:22 -0800
 tags: tsubclassof classes pointers cdo
 ---
