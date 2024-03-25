@@ -8,7 +8,7 @@ I started learning to write software around 1999. I'm still learning.\
 I have Bachelor degree in Computer Science (DigiPen Institute of Technology, 2009) & have worked as a professional game developer since 2009.\
 I've worked with proprietary game engines up until 2019 when I first started using Unreal Engine 4. Now I spend most of my time writing code against the latest verion of Unreal Engine (5.3, at the time of this update).
 
-The inspiration for this blog comes from Sean Secton's excellent [2,000 Things](https://2000things.com/) projects.\
+The inspiration for this blog comes from Sean Sexton's excellent [2,000 Things](https://2000things.com/) projects.\
 His short posts were often just the right thing to help me find answers to problems or just learn more about the technologies I was using.\
 **This** blog might not solve your problems, but can hopefully provide some useful information about the framework in which you're working.
 
