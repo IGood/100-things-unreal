@@ -14,15 +14,17 @@ This is important because case-insensitive comparisons are more expensive.
 
 ---
 
-For performance critical code, prefer converting your string to lowercase before using `Equals` instead of using `op==`.
+For performance critical code where you can ignore casing, prefer converting your string to lowercase & use case-sensitive options (e.g. `Equals` instead of `op==`).
+
 ```cpp
-// 👍 write this
+// 👍 write this:
 MyString.ToLowerInline();
 if (MyString.Equals(TEXT("foo"))) ...
 else if (MyString.Equals(TEXT("bar"))) ...
+else if (MyString.StartsWith(TEXT("blah"), ESearchCase::CaseSensitive)) ...
 
-
-// 👎 not that
+// 👎 not that:
 if (MyString == TEXT("Foo")) ...
 else if (MyString == TEXT("Bar")) ...
+else if (MyString.StartsWith(TEXT("Blah"))) ...
 ```
