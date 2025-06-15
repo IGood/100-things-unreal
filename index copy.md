@@ -5,7 +5,7 @@
 #layout: home
 food: pizza (🍕)
 ---
-# 1,000 Things You Should Know About Programming In Unreal
+# 100 Things You Should Know About Programming In Unreal
 
 ## ⚠ This page is under construction ⚠
 
