@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 1,000 Things You Should Know About Programming In Unreal
+title: 100 Things You Should Know About Programming In Unreal
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tips and recommendations for writing correct & performant code in the Unreal Engine.
-  <div align="right"><small>| <a href="/1000-things-unreal/">home</a> | <a href="/1000-things-unreal/about">about</a> |</small></div>
-baseurl: "/1000-things-unreal" # the subpath of your site, e.g. /blog
+  <div align="right"><small>| <a href="/100-things-unreal/">home</a> | <a href="/100-things-unreal/about">about</a> |</small></div>
+baseurl: "/100-things-unreal" # the subpath of your site, e.g. /blog
 url: "https://igood.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IanGoodies
 github_username:  IGood
