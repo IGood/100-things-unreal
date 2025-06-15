@@ -12,7 +12,7 @@ The inspiration for this blog comes from Sean Sexton's excellent [2,000 Things](
 His short posts were often just the right thing to help me find answers to problems or just learn more about the technologies I was using.\
 **This** blog might not solve your problems, but can hopefully provide some useful information about the framework in which you're working.
 
-I doubt that I'll ever come close to 1,000 posts. 2,000 is absurd for me, 100+ seemed *plausible* on a long enough timeline, & anything else in the middle didn't feel like a nice round number.
+2,000 posts is absurd for me, but 100 seemed *plausible* on a long enough timeline.
 
 ---
 
